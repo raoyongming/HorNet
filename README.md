@@ -1,4 +1,4 @@
-# HorNet
+# HorNet <img width="32" alt="HorNet Icon" src="figs/hornet_icon.png">
 
 Created by [Yongming Rao](https://raoyongming.github.io/), [Wenliang Zhao](https://wl-zhao.github.io/), [Yansong Tang](https://andytang15.github.io/), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1), [Ser-Nam Lim](https://sites.google.com/site/sernam), [Jiwen Lu](https://scholar.google.com/citations?user=TN8uDQoAAAAJ&hl=en&authuser=1)
 
