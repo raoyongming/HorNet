@@ -67,9 +67,7 @@ def main():
     with open("constants.yaml", "r") as f:
         constants = yaml.safe_load(f)
     
-    args = parse_args()
-    os.environ['WANDB_API_KEY'] = '2d8367bbd72f2bd1cea98d4d30c846e09d1cff8a'
-    
+    args = parse_args()    
     if args.job_dir == "":
         args.job_dir = constants["experiment_folder"]
     else:
