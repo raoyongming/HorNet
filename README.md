@@ -31,7 +31,7 @@ ImageNet-22K trained models:
 
 *indicate the model is finetuned to 384x384 resolution on ImageNet-22k.
 
-## Usage
+## ImageNet Classification
 
 ### Requirements
 
@@ -73,8 +73,6 @@ python -m torch.distributed.launch --nproc_per_node=8 main.py \
 
 ### Training
 
-#### ImageNet
-
 To train HorNet models on ImageNet from scratch on a single machine, run:
 
 ```
@@ -107,6 +105,10 @@ python run_with_submitit.py --nodes 4 --ngpus 8 \
 --data_path /path/to/imagenet-1k \
 --job_dir ./logs/hornet_larget_gf_img384_ft1k
 ```
+
+## Downstream Tasks
+
+Please check the [object_detection.md](./object_detection/README.md) and [semantic_segmentation.md](./semantic_segmentation/README.md) for training and evaluation instructions on downstream tasks.
 
 ## License
 MIT License

@@ -1,9 +1,8 @@
-# COCO Object detection with ConvNeXt
+# COCO Object detection with HorNet
 
 ## Getting started 
 
-We add ConvNeXt model and config files to [Swin Detection](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection/tree/6a979e2164e3fb0de0ca2546545013a4d71b2f7d).
-Our code has been tested with commit `6a979e2`. Please refer to [README.md](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection/blob/6a979e2164e3fb0de0ca2546545013a4d71b2f7d/README.md) for installation and dataset preparation instructions.
+ Please refer to [README.md](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection/blob/6a979e2164e3fb0de0ca2546545013a4d71b2f7d/README.md) for installation and dataset preparation instructions.
 
 ## Results and Fine-tuned Models
 
@@ -16,7 +15,7 @@ Our code has been tested with commit `6a979e2`. Please refer to [README.md](http
 | HorNet-B (7x7)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/836ab04898c646c389ce/?dl=1)| Cascade Mask R-CNN | 3x | 53.3 | 46.1 | 144M | 969G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/80537e4cbd53465fa0ec/?dl=1) |
 | HorNet-B (GF)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/60f706e36f6b4098a1f9/?dl=1) | Cascade Mask R-CNN | 3x | 54.0 | 46.9 | 146M | 965G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/d0c0027d31e144aaa260/?dl=1) |
 | HorNet-L (7x7)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/4de41e26cb254c28a61a/?dl=1) | Cascade Mask R-CNN | 3x | 55.4 | 48.0 | 251M | 1363G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/22eb5edba61f461ab7bc/?dl=1) |
-| HorNet-L (GF)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/f36957d46eef47da9c25/?dl=1) | Cascade Mask R-CNN | 3x | 56.0 | 48.6 | 259M | 1358G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/8e99e2bb4856452ea8cc/?dl=1) |
+| HorNet-L (GF)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/8679b6acf63c41e285d9/?dl=1) | Cascade Mask R-CNN | 3x | 56.0 | 48.6 | 259M | 1358G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/8e99e2bb4856452ea8cc/?dl=1) |
 
 
 ### Training

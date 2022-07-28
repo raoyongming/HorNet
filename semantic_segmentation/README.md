@@ -1,5 +1,6 @@
 # ADE20k Semantic segmentation with HorNet
 
+ Please refer to [README.md](https://github.com/facebookresearch/ConvNeXt/tree/main/semantic_segmentation) for installation and dataset preparation instructions.
 
 ## Results and Fine-tuned Models
 
@@ -12,7 +13,7 @@
 | HorNet-B (7x7) | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/836ab04898c646c389ce/?dl=1) | UPerNet | 512x512 | 160K | 50.0 | 50.5 | 121M | 1174G | [Tsinghua Cloud]() |
 | HorNet-B (GF) | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/60f706e36f6b4098a1f9/?dl=1) | UPerNet | 640x640 | 160K | 50.5 | 50.9 | 126M | 1171G | [Tsinghua Cloud]() |
 | HorNet-L (7x7) | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/4de41e26cb254c28a61a/?dl=1) | UPerNet | 640x640 | 160K | 54.1 | 54.5 | 232M | 2473G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/a5180a5fa8c3437a8ffc/?dl=1) |
-| HorNet-L (GF) | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/f36957d46eef47da9c25/?dl=1) | UPerNet | 640x640 | 160K | 55.0 | 55.2 | 239M | 2465G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/0c18efc723b14b9e841f/?dl=1) |
+| HorNet-L (GF) | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/8679b6acf63c41e285d9/?dl=1) | UPerNet | 640x640 | 160K | 55.0 | 55.2 | 239M | 2465G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/0c18efc723b14b9e841f/?dl=1) |
 
 ### Training
 
