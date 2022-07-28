@@ -28,7 +28,7 @@ bash dist_train.sh \
     --options model.pretrained=/path/to/pretrained/weight
 ```
 
-More config files can be found at [`configs/convnext`](configs/convnext).
+More config files can be found at [`configs/hornet`](configs/hornet).
 
 
 ## Evaluation
@@ -57,4 +57,4 @@ bash dist_test.sh configs/hornet/upernet_hornet_tiny_gf_512_160k_ade20k.py \
 
 ## Acknowledgment 
 
-This code is built using [mmsegmentation](https://github.com/open-mmlab/mmsegmentation), [timm](https://github.com/rwightman/pytorch-image-models) libraries
+This code is built using [mmsegmentation](https://github.com/open-mmlab/mmsegmentation), [timm](https://github.com/rwightman/pytorch-image-models) libraries, and [ConvNeXt](https://github.com/facebookresearch/ConvNeXt)

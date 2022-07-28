@@ -162,9 +162,8 @@ class Block(nn.Module):
 
 @BACKBONES.register_module()
 class HorNet(nn.Module):
-    r""" ConvNeXt
-        A PyTorch impl of : `A ConvNet for the 2020s`  -
-          https://arxiv.org/pdf/2201.03545.pdf
+    r""" HorNet
+        A PyTorch impl of : `HorNet: Efficient High-Order Spatial Interactions with Recursive Gated Convolutions`
 
     Args:
         in_chans (int): Number of input image channels. Default: 3

@@ -43,7 +43,7 @@ def str2bool(v):
         raise argparse.ArgumentTypeError('Boolean value expected.')
 
 def get_args_parser():
-    parser = argparse.ArgumentParser('ConvNeXt training and evaluation script for image classification', add_help=False)
+    parser = argparse.ArgumentParser('HorNet training and evaluation script for image classification', add_help=False)
     parser.add_argument('--batch_size', default=64, type=int,
                         help='Per GPU batch size')
     parser.add_argument('--epochs', default=300, type=int)
@@ -51,7 +51,7 @@ def get_args_parser():
                         help='gradient accumulation steps')
 
     # Model parameters
-    parser.add_argument('--model', default='convnext_tiny', type=str, metavar='MODEL',
+    parser.add_argument('--model', default='hornet_tiny_gf', type=str, metavar='MODEL',
                         help='Name of model to train')
     parser.add_argument('--drop_path', type=float, default=0, metavar='PCT',
                         help='Drop path rate (default: 0.0)')
