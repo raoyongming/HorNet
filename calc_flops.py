@@ -26,7 +26,7 @@ def rfft_flop_jit(inputs: List[Any], outputs: List[Any]) -> Number:
 
 def calc_hornet_flops(model, img_size=224, show_details=False):
     with torch.no_grad():
-        x = torch.randn(1, 3, img_size, img_size)
+        x = torch.randn(1, 3, img_size, img_size).cuda()
         fca1 = FlopCountAnalysis(model, x)
         handlers = {
             'aten::fft_rfft2': rfft_flop_jit,

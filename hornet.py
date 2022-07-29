@@ -127,7 +127,7 @@ class HorNet(nn.Module):
     def __init__(self, in_chans=3, num_classes=1000, 
                  depths=[3, 3, 9, 3], base_dim=96, drop_path_rate=0.,
                  layer_scale_init_value=1e-6, head_init_scale=1.,
-                 gnconv=gnconv, block=Block, uniform_init=False,
+                 gnconv=gnconv, block=Block, uniform_init=False, **kwargs
                  ):
         super().__init__()
         dims = [base_dim, base_dim*2, base_dim*4, base_dim*8]
