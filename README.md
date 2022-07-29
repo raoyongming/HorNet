@@ -8,7 +8,7 @@ HorNet is a family of generic vision backbones that perform explicit *high-order
 
 ![intro](figs/intro.jpg)
 
-[[Project Page]](https://hornet.ivg-research.xyz/) [[arXiv]](https://arxiv.org/abs/2207.xxxx)
+[[Project Page]](https://hornet.ivg-research.xyz/) [[arXiv]](https://arxiv.org/abs/2207.14284)
 
 ## Model Zoo
 
@@ -122,7 +122,7 @@ If you find our work useful in your research, please consider citing:
 @article{rao2021hornet,
   title={HorNet: Efficient High-Order Spatial Interactions with Recursive Gated Convolutions},
   author={Rao, Yongming and Zhao, Wenliang and Tang, Yansong and Zhou, Jie and Lim, Ser-Lam and Lu, Jiwen},
-  journal={arXiv preprint arXiv:2207.xxxx},
+  journal={arXiv preprint arXiv:2207.14284},
   year={2022}
 }
 ```
