@@ -212,7 +212,7 @@ class WandbLogger(object):
         # Initialize a W&B run 
         if self._wandb.run is None:
             self._wandb.init(
-                entity="gnnet-project",
+                entity="hornet-project",
                 project=args.project,
                 config=args,
                 name=args.exp_name
