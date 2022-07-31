@@ -8,8 +8,8 @@
 
 | name | Pretrained Model | Method | Lr Schd | box mAP | mask mAP | #params | FLOPs | Fine-tuned Model |
 |:---:|:---:|:---:|:---:| :---:|:---:|:---:|:---:| :---:|
-| HorNet-T (7x7)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/762f05c3c8cd4743b534/?dl=1) | Cascade Mask R-CNN | 3x | 51.7 | 44.8 | 80M | 730G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/98fe75fe5d544c409852/?dl=1) |
-| HorNet-T (GF)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/395dd6c443ed4a339739/?dl=1) | Cascade Mask R-CNN | 3x | 52.4 | 45.6 | 80M | 728G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/c6cbd11caf4449b49265/?dl=1) |
+| HorNet-T (7x7)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/2fcf6ac11f104e0bb7f6/?dl=1) | Cascade Mask R-CNN | 3x | 51.7 | 44.8 | 80M | 730G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/98fe75fe5d544c409852/?dl=1) |
+| HorNet-T (GF)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/c8a82a241b8a494cbf3e/?dl=1) | Cascade Mask R-CNN | 3x | 52.4 | 45.6 | 80M | 728G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/c6cbd11caf4449b49265/?dl=1) |
 | HorNet-S (7x7)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/9d7043023da14e4b8b2e/?dl=1) | Cascade Mask R-CNN | 3x | 52.7 | 45.6 | 107M | 830G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/8da73119497745f39c3f/?dl=1) |
 | HorNet-S (GF)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/19eef725b2e64692b8b0/?dl=1) | Cascade Mask R-CNN | 3x | 53.3 | 46.3 | 108M | 827G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/c20b1ee6ed55479ab56d/?dl=1) |
 | HorNet-B (7x7)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/836ab04898c646c389ce/?dl=1)| Cascade Mask R-CNN | 3x | 53.3 | 46.1 | 144M | 969G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/80537e4cbd53465fa0ec/?dl=1) |
