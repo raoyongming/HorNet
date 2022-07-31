@@ -15,8 +15,8 @@ HorNet is a family of generic vision backbones that perform explicit *high-order
 ImageNet-1K trained models:
 | name | arch | Params | FLOPs | Top-1 | url |
 | --- | --- | --- | --- | --- |  --- |
-| HorNet-T (7x7) | ```hornet_tiny_7x7``` | 22M | 4.0G | 82.8 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/762f05c3c8cd4743b534/?dl=1)|
-| HorNet-T (GF) | ```hornet_tiny_gf``` | 23M | 3.9G | 83.0 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/395dd6c443ed4a339739/?dl=1)|
+| HorNet-T (7x7) | ```hornet_tiny_7x7``` | 22M | 4.0G | 82.8 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/2fcf6ac11f104e0bb7f6/?dl=1)|
+| HorNet-T (GF) | ```hornet_tiny_gf``` | 23M | 3.9G | 83.0 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/c8a82a241b8a494cbf3e/?dl=1)|
 | HorNet-S (7x7) | ```hornet_small_7x7``` | 50M | 8.8G | 84.0 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/9d7043023da14e4b8b2e/?dl=1)|
 | HorNet-S (GF) | ```hornet_small_gf``` | 50M | 8.7G | 84.2 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/19eef725b2e64692b8b0/?dl=1)|
 | HorNet-B (7x7) | ```hornet_base_7x7``` | 87M | 15.6G | 84.3 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/836ab04898c646c389ce/?dl=1)|
