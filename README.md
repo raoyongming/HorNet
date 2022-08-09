@@ -106,6 +106,8 @@ python run_with_submitit.py --nodes 4 --ngpus 8 \
 --job_dir ./logs/hornet_larget_gf_img384_ft1k
 ```
 
+We provide detailed training commands for our models in [TRAINING.md](./TRAINING.md).
+
 ## Downstream Tasks
 
 Please check the [object_detection.md](./object_detection/README.md) and [semantic_segmentation.md](./semantic_segmentation/README.md) for training and evaluation instructions on downstream tasks.
