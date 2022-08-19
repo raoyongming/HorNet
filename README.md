@@ -84,39 +84,19 @@ python -m torch.distributed.launch --nproc_per_node=8 main.py \
 --output_dir ./logs/hornet_tiny_7x7
 ```
 
-To train HorNet models on ImageNet from scratch with 4 8-GPU nodes, run:
-```
-python run_with_submitit.py --nodes 4 --ngpus 8 \
---model hornet_tiny_7x7 --drop_path 0.2 --clip_grad 5\
---batch_size 128 --lr 4e-3 --update_freq 1 \
---model_ema true --model_ema_eval true \
---data_path /path/to/imagenet-1k \
---job_dir ./logs/hornet_tiny_7x7
-```
-
-To finetune a pre-trained model to ImageNet-1K at higher resolution, run:
-```
-python run_with_submitit.py --nodes 4 --ngpus 8 \
---model hornet_large_gf_img384 --drop_path 0.4 --clip_grad 1 \
---batch_size 16 --lr 5e-5 --update_freq 1 --weight_decay 1e-8 \
---warmup_epochs 0 --input_size 384 --epochs 30 \
---model_ema true --model_ema_eval true --cutmix 0 --mixup 0 \
---layer_decay 0.7 --finetune ./pretrained/hornet_large_gf_in22k.pth \
---data_path /path/to/imagenet-1k \
---job_dir ./logs/hornet_larget_gf_img384_ft1k
-```
-
 We provide detailed training commands for our models in [TRAINING.md](./TRAINING.md).
 
 ## Downstream Tasks
 
-Please check the [object_detection.md](./object_detection/README.md) and [semantic_segmentation.md](./semantic_segmentation/README.md) for training and evaluation instructions on downstream tasks.
+Please check the [object_detection.md](./object_detection/README.md) and [semantic_segmentation.md](./semantic_segmentation/README.md) for training and evaluation instructions on dense prediction tasks.
+
+HorNet also achieves state-of-the-art performance on 3D object classification with our new framework ([***P2P***](https://github.com/wangzy22/P2P)) to leverage pre-trained image models for point cloud understanding.
 
 ## License
 MIT License
 
 ## Acknowledgements
-Our code is based on [pytorch-image-models](https://github.com/rwightman/pytorch-image-models), [DeiT](https://github.com/facebookresearch/deit) and [ConvNeXt](https://github.com/facebookresearch/ConvNeXt). We would like to thank [High-Flyer AI Research](https://www.high-flyer.cn/) for their generous support of a part of computational resources used in this project.
+Our code is based on [pytorch-image-models](https://github.com/rwightman/pytorch-image-models), [DeiT](https://github.com/facebookresearch/deit) and [ConvNeXt](https://github.com/facebookresearch/ConvNeXt). We would like to thank [High-Flyer AI Research](https://www.high-flyer.cn/) for their generous support of partial computational resources used in this project.
 
 ## Citation
 If you find our work useful in your research, please consider citing:

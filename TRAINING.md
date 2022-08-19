@@ -38,7 +38,7 @@ HorNet-S (GF)
 ```
 python run_with_submitit.py --nodes 4 --ngpus 8 \
 --model hornet_small_gf --drop_path 0.4 --clip_grad 1 \
---batch_size 64 --lr 4e-3 --update_freq 2 --aa rand-m12-mstd0.5-inc1\
+--batch_size 64 --lr 4e-3 --update_freq 2 --aa rand-m12-mstd0.5-inc1 \
 --model_ema true --model_ema_eval true \
 --data_path /path/to/imagenet-1k \
 --job_dir ./logs/hornet_small_gf
@@ -58,7 +58,7 @@ HorNet-B (GF)
 ```
 python run_with_submitit.py --nodes 4 --ngpus 8 \
 --model hornet_base_gf --drop_path 0.5 --clip_grad 1 \
---batch_size 64 --lr 4e-3 --update_freq 2 --aa rand-m15-mstd0.5-inc1\
+--batch_size 64 --lr 4e-3 --update_freq 2 --aa rand-m15-mstd0.5-inc1 \
 --model_ema true --model_ema_eval true \
 --data_path /path/to/imagenet-1k \
 --job_dir ./logs/hornet_base_gf
