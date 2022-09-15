@@ -2,7 +2,7 @@
 
 Created by [Yongming Rao](https://raoyongming.github.io/)\*, [Wenliang Zhao](https://wl-zhao.github.io/)\*, [Yansong Tang](https://andytang15.github.io/), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1), [Ser-Nam Lim](https://sites.google.com/site/sernam)†, [Jiwen Lu](https://scholar.google.com/citations?user=TN8uDQoAAAAJ&hl=en&authuser=1)†
 
-This repository contains PyTorch implementation for HorNet.
+This repository contains PyTorch implementation for HorNet (NeurIPS 2022).
 
 HorNet is a family of generic vision backbones that perform explicit *high-order* spatial interactions based on Recursive Gated Convolution.
 
