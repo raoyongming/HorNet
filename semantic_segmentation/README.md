@@ -15,7 +15,7 @@
 | HorNet-L (7x7) | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/4de41e26cb254c28a61a/?dl=1) | UPerNet | 640x640 | 160K | 54.1 | 54.5 | 232M | 2473G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/a5180a5fa8c3437a8ffc/?dl=1) |
 | HorNet-L (GF) | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/8679b6acf63c41e285d9/?dl=1) | UPerNet | 640x640 | 160K | 55.0 | 55.2 | 239M | 2465G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/0c18efc723b14b9e841f/?dl=1) |
 
-### Training
+## Training
 
 ```
 bash dist_train.sh <CONFIG_PATH> <NUM_GPUS> --work-dir <SAVE_PATH> --options model.pretrained=<PRETRAIN_MODEL>
