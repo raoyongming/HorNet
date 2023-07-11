@@ -14,8 +14,8 @@
 | HorNet-S (GF)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/8405c984bf084d2ba85a/?dl=1) | Cascade Mask R-CNN | 3x | 53.3 | 46.3 | 108M | 827G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/c20b1ee6ed55479ab56d/?dl=1) |
 | HorNet-B (7x7)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/5c86cb3d655d4c17a959/?dl=1)| Cascade Mask R-CNN | 3x | 53.3 | 46.1 | 144M | 969G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/80537e4cbd53465fa0ec/?dl=1) |
 | HorNet-B (GF)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/6c84935e63b547f383fb/?dl=1) | Cascade Mask R-CNN | 3x | 54.0 | 46.9 | 146M | 965G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/d0c0027d31e144aaa260/?dl=1) |
-| HorNet-L (7x7)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/4de41e26cb254c28a61a/?dl=1) | Cascade Mask R-CNN | 3x | 55.4 | 48.0 | 251M | 1363G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/22eb5edba61f461ab7bc/?dl=1) |
-| HorNet-L (GF)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/8679b6acf63c41e285d9/?dl=1) | Cascade Mask R-CNN | 3x | 56.0 | 48.6 | 259M | 1358G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/8e99e2bb4856452ea8cc/?dl=1) |
+| HorNet-L (7x7)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/4de41e26cb254c28a61a/?dl=1) | Cascade Mask R-CNN | 3x | 55.4 | 48.0 | 251M | 1363G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/a76f7ce114ad4e9c8ffb/?dl=1) |
+| HorNet-L (GF)| [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/8679b6acf63c41e285d9/?dl=1) | Cascade Mask R-CNN | 3x | 56.0 | 48.6 | 259M | 1358G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/9253bd0d50c84ab1b71e/?dl=1) |
 
 
 ### Training
