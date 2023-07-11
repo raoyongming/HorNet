@@ -25,9 +25,9 @@ ImageNet-1K trained models:
 ImageNet-22K trained models:
 | name | arch | Params | FLOPs | url |
 | --- | --- | --- | --- | --- |
-| HorNet-L (7x7) | ```hornet_large_7x7``` | 209M | 34.8G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/4de41e26cb254c28a61a/?dl=1)|
-| HorNet-L (GF) | ```hornet_large_gf``` | 211M | 34.7G |  [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/8679b6acf63c41e285d9/?dl=1)|
-| HorNet-L (GF)* | ```hornet_large_gf_img384``` | 216M | 101.8G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/f36957d46eef47da9c25/?dl=1)|
+| HorNet-L (7x7) | ```hornet_large_7x7``` | 209M | 34.8G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/a76f7ce114ad4e9c8ffb/?dl=1)|
+| HorNet-L (GF) | ```hornet_large_gf``` | 211M | 34.7G |  [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/12c99a79e77341e59681/?dl=1)|
+| HorNet-L (GF)* | ```hornet_large_gf_img384``` | 216M | 101.8G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/9253bd0d50c84ab1b71e/?dl=1)|
 
 *indicate the model is finetuned to 384x384 resolution on ImageNet-22k.
 
