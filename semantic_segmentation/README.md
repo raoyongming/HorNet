@@ -12,8 +12,8 @@
 | HorNet-S (GF) | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/8405c984bf084d2ba85a/?dl=1) | UPerNet | 512x512 | 160K | 50.0 | 50.5 | 85M | 1027G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/3e426d1b6f994907bb2c/?dl=1) |
 | HorNet-B (7x7) | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/5c86cb3d655d4c17a959/?dl=1) | UPerNet | 512x512 | 160K | 50.0 | 50.5 | 121M | 1174G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/543c70ce127440879374/?dl=1) |
 | HorNet-B (GF) | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/6c84935e63b547f383fb/?dl=1) | UPerNet | 640x640 | 160K | 50.5 | 50.9 | 126M | 1171G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/dd1ae599a8b3467d8dba/?dl=1) |
-| HorNet-L (7x7) | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/4de41e26cb254c28a61a/?dl=1) | UPerNet | 640x640 | 160K | 54.1 | 54.5 | 232M | 2473G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/a5180a5fa8c3437a8ffc/?dl=1) |
-| HorNet-L (GF) | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/8679b6acf63c41e285d9/?dl=1) | UPerNet | 640x640 | 160K | 55.0 | 55.2 | 239M | 2465G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/0c18efc723b14b9e841f/?dl=1) |
+| HorNet-L (7x7) | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/4de41e26cb254c28a61a/?dl=1) | UPerNet | 640x640 | 160K | 54.1 | 54.5 | 232M | 2473G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/a76f7ce114ad4e9c8ffb/?dl=1) |
+| HorNet-L (GF) | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/8679b6acf63c41e285d9/?dl=1) | UPerNet | 640x640 | 160K | 55.0 | 55.2 | 239M | 2465G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/9253bd0d50c84ab1b71e/?dl=1) |
 
 ## Training
 
