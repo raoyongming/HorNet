@@ -15,19 +15,19 @@ HorNet is a family of generic vision backbones that perform explicit *high-order
 ImageNet-1K trained models:
 | name | arch | Params | FLOPs | Top-1 | url |
 | --- | --- | --- | --- | --- |  --- |
-| HorNet-T (7x7) | ```hornet_tiny_7x7``` | 22M | 4.0G | 82.8 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/1ca970586c6043709a3f/?dl=1)|
-| HorNet-T (GF) | ```hornet_tiny_gf``` | 23M | 3.9G | 83.0 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/511faad0bde94dfcaa54/?dl=1)|
-| HorNet-S (7x7) | ```hornet_small_7x7``` | 50M | 8.8G | 83.8 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/46422799db2941f7b684/?dl=1)|
-| HorNet-S (GF) | ```hornet_small_gf``` | 50M | 8.7G | 84.0 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/8405c984bf084d2ba85a/?dl=1)|
-| HorNet-B (7x7) | ```hornet_base_7x7``` | 87M | 15.6G | 84.2 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/5c86cb3d655d4c17a959/?dl=1)|
-| HorNet-B (GF) | ```hornet_base_gf``` | 88M | 15.5G | 84.3 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/6c84935e63b547f383fb/?dl=1)|
+| HorNet-T (7x7) | ```hornet_tiny_7x7``` | 22M | 4.0G | 82.8 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/bac9690c72944d19aca1/?dl=1)|
+| HorNet-T (GF) | ```hornet_tiny_gf``` | 23M | 3.9G | 83.0 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/460e759c82324ea6bfa3/?dl=1)|
+| HorNet-S (7x7) | ```hornet_small_7x7``` | 50M | 8.8G | 83.8 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/8ef64277da0e469ea857/?dl=1)|
+| HorNet-S (GF) | ```hornet_small_gf``` | 50M | 8.7G | 84.0 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/959603ca287d4c09ad49/?dl=1)|
+| HorNet-B (7x7) | ```hornet_base_7x7``` | 87M | 15.6G | 84.2 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/13a748487711492e9704/?dl=1)|
+| HorNet-B (GF) | ```hornet_base_gf``` | 88M | 15.5G | 84.3 | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/c212d1d8a3914b47a5c1/?dl=1)|
 
 ImageNet-22K trained models:
 | name | arch | Params | FLOPs | url |
 | --- | --- | --- | --- | --- |
-| HorNet-L (7x7) | ```hornet_large_7x7``` | 209M | 34.8G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/a76f7ce114ad4e9c8ffb/?dl=1)|
-| HorNet-L (GF) | ```hornet_large_gf``` | 211M | 34.7G |  [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/12c99a79e77341e59681/?dl=1)|
-| HorNet-L (GF)* | ```hornet_large_gf_img384``` | 216M | 101.8G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/9253bd0d50c84ab1b71e/?dl=1)|
+| HorNet-L (7x7) | ```hornet_large_7x7``` | 209M | 34.8G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/c2fc23caae084a3aa73d/?dl=1)|
+| HorNet-L (GF) | ```hornet_large_gf``` | 211M | 34.7G |  [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/8600206ebdfa485f98d0/?dl=1)|
+| HorNet-L (GF)* | ```hornet_large_gf_img384``` | 216M | 101.8G | [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/eec48d5eca5a48d98fd2/?dl=1)|
 
 *indicate the model is finetuned to 384x384 resolution on ImageNet-22k.
 
@@ -101,6 +101,14 @@ Our code is based on [pytorch-image-models](https://github.com/rwightman/pytorch
 ## Citation
 If you find our work useful in your research, please consider citing:
 ```
+@article{liu2025hornet,
+  title={Efficient high-order spatial interactions for visual perception},
+  author={Liu, Zuyan and Rao, Yongming and Zhao, Wenliang and Zhou, Jie and Lu, Jiwen},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2025},
+  publisher={IEEE}
+}
+
 @article{rao2022hornet,
   title={HorNet: Efficient High-Order Spatial Interactions with Recursive Gated Convolutions},
   author={Rao, Yongming and Zhao, Wenliang and Tang, Yansong and Zhou, Jie and Lim, Ser-Lam and Lu, Jiwen},
